@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  dimpwebapp:
+    image: dimpmobiweb:appv1
+    build: .
+    container_name: dimpwebc1
+    ports:
+      - 1222:80
+    restart: always
+    
